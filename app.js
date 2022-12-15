@@ -29,4 +29,6 @@ db.once("open",function(){
     console.log("connected successfully")
 })
 
+app.use('/doctor',doctorRouter);
+
 app.listen(3000)
